@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "/home/pmx990/文档/DR/newenv/bin/python3.6",
+    "python.testing.pytestArgs": [
+        "composeexample"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.pytestEnabled": true
+}
