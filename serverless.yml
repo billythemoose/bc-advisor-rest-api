@@ -22,4 +22,61 @@ provider:
   #
   #environment:
   #  sampleEnvVar: ${env:SAMPLE_ENV_VAR}
+  environment: 
+    tableName: bcadmin-test
+
+  iamRoleStatements:
+    - Effect: Allow
+      Action: 
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      Resource: "arn:aws:dynamodb:us-west-2:*:*"
+  
+functions:
+  create:
+    handler: create.main
+    events:
+      - http:
+          path: bcadmin
+          method: post
+          cors: true
+          authorizer: aws_iam
+  get:
+    handler: get.main
+    events: 
+      - http:
+          path: quarter/{id}
+          method: get
+          cors: true
+          authorizer: aws_iam
+  list:
+    handler: list.main
+    events:
+      - http:
+          path: quarter
+          method: get
+          cors: true
+          authorizer: aws_iam
+  delete:
+    handler: delete.main
+    events:
+      - http:
+          path: quarter/{id}
+          method: delete
+          cors: true
+          authorizer: aws_iam
+  update:
+    handler: update.main
+    events:
+      - http:
+          path: quarter/{id}
+          method: put
+          cors: true
+          authorizer: aws_iam
+
 
