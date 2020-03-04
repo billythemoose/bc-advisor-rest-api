@@ -1,0 +1,31 @@
+Resources:
+  bcadmin:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ${self:custom.tableName}
+      AttributeDefinitions:
+        - AttributeName: userId
+          AttributeType: S
+        - AttributeName: quarterId
+          AttributeType: S
+      KeySchema:
+        - AttributeName: userId
+          KeyType: HASH
+        - AttributeName: quarterId
+          KeyType: RANGE
+      BillingMode: PAY_PER_REQUEST
+  tableTwo:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ${self:custom.tableTwo}
+      AttributeDefinitions:
+        - AttributeName: keyName
+          AttributeType: S
+        - AttributeName: valueName
+          AttributeType: S
+      KeySchema:
+        - AttributeName: keyName
+          KeyType: HASH
+        - AttributeName: valueName
+          KeyType: RANGE
+      BillingMode: PAY_PER_REQUEST
