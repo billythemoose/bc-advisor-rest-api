@@ -1,6 +1,7 @@
 Resources:
   bcadmin:
     Type: AWS::DynamoDB::Table
+    DeletionPolicy: Retain
     Properties:
       TableName: ${self:custom.tableName}
       AttributeDefinitions:
@@ -14,18 +15,35 @@ Resources:
         - AttributeName: quarterId
           KeyType: RANGE
       BillingMode: PAY_PER_REQUEST
-  tableTwo:
+  bcadminSlug:
     Type: AWS::DynamoDB::Table
+    DeletionPolicy: Retain
     Properties:
-      TableName: ${self:custom.tableTwo}
+      TableName: bcadmin-slug
       AttributeDefinitions:
-        - AttributeName: keyName
+        - AttributeName: slug
           AttributeType: S
-        - AttributeName: valueName
+        - AttributeName: title
           AttributeType: S
       KeySchema:
-        - AttributeName: keyName
+        - AttributeName: slug
           KeyType: HASH
-        - AttributeName: valueName
+        - AttributeName: title
+          KeyType: RANGE
+      BillingMode: PAY_PER_REQUEST
+  bcadminClasses:
+    Type: AWS::DynamoDB::Table
+    DeletionPolicy: Retain
+    Properties:
+      TableName: bcadmin-classes
+      AttributeDefinitions:
+        - AttributeName: slug
+          AttributeType: S
+        - AttributeName: id
+          AttributeType: S
+      KeySchema:
+        - AttributeName: slug
+          KeyType: HASH
+        - AttributeName: id
           KeyType: RANGE
       BillingMode: PAY_PER_REQUEST

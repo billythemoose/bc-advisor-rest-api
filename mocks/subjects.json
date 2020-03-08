@@ -1,0 +1,439 @@
+{
+	"Subjects": [{
+		"Title": "Accounting",
+		"Slug": "ACCT",
+		"CoursePrefixes": ["ACCT"]
+	}, {
+		"Title": "Accounting-Transfer",
+		"Slug": "ACCT&",
+		"CoursePrefixes": ["ACCT&"]
+	}, {
+		"Title": "Adult Basic Education",
+		"Slug": "ABE",
+		"CoursePrefixes": ["ABE"]
+	}, {
+		"Title": "Adult Fitness",
+		"Slug": "ADFIT",
+		"CoursePrefixes": ["ADFIT"]
+	}, {
+		"Title": "American Sign Language",
+		"Slug": "ASL",
+		"CoursePrefixes": ["ASL", "ASL&"]
+	}, {
+		"Title": "Anthropology",
+		"Slug": "ANTH",
+		"CoursePrefixes": ["ANTH", "ANTH&"]
+	}, {
+		"Title": "Applied Linguistics & Language",
+		"Slug": "ALL",
+		"CoursePrefixes": ["ALL"]
+	}, {
+		"Title": "Arabic",
+		"Slug": "ARAB",
+		"CoursePrefixes": ["ARAB"]
+	}, {
+		"Title": "Art",
+		"Slug": "ART",
+		"CoursePrefixes": ["ART"]
+	}, {
+		"Title": "Astronomy",
+		"Slug": "ASTR",
+		"CoursePrefixes": ["ASTR", "ASTR&"]
+	}, {
+		"Title": "Biology",
+		"Slug": "BIOL",
+		"CoursePrefixes": ["BIOL", "BIOL&"]
+	}, {
+		"Title": "Botany",
+		"Slug": "BOTAN",
+		"CoursePrefixes": ["BOTAN"]
+	}, {
+		"Title": "Business Administration-Transfer",
+		"Slug": "BA",
+		"CoursePrefixes": ["BA"]
+	}, {
+		"Title": "Business Intelligence",
+		"Slug": "BUSIT",
+		"CoursePrefixes": ["BUSIT"]
+	}, {
+		"Title": "Business Management",
+		"Slug": "BUS",
+		"CoursePrefixes": ["BUS", "BUS&"]
+	}, {
+		"Title": "Business Sustainable Practices",
+		"Slug": "BSUST",
+		"CoursePrefixes": ["BSUST"]
+	}, {
+		"Title": "Business Technology Systems",
+		"Slug": "BTS",
+		"CoursePrefixes": ["BTS"]
+	}, {
+		"Title": "Career Education Options",
+		"Slug": "CEO",
+		"CoursePrefixes": ["CEO"]
+	}, {
+		"Title": "Chemistry",
+		"Slug": "CHEM",
+		"CoursePrefixes": ["CHEM", "CHEM&"]
+	}, {
+		"Title": "Chinese",
+		"Slug": "CHIN",
+		"CoursePrefixes": ["CHIN", "CHIN&"]
+	}, {
+		"Title": "CommunicationStudies",
+		"Slug": "CMST",
+		"CoursePrefixes": ["CMST", "CMST&"]
+	}, {
+		"Title": "Computer Science",
+		"Slug": "CS",
+		"CoursePrefixes": ["CS"]
+	}, {
+		"Title": "Criminal Justice",
+		"Slug": "CJ",
+		"CoursePrefixes": ["CJ", "CJ&"]
+	}, {
+		"Title": "Cultural & Ethnic Studies",
+		"Slug": "CES",
+		"CoursePrefixes": ["CES"]
+	}, {
+		"Title": "Dance",
+		"Slug": "DANCE",
+		"CoursePrefixes": ["DANCE"]
+	}, {
+		"Title": "Database Administration",
+		"Slug": "DBA",
+		"CoursePrefixes": ["DBA"]
+	}, {
+		"Title": "Developmental Education",
+		"Slug": "DEVED",
+		"CoursePrefixes": ["DEVED"]
+	}, {
+		"Title": "Diagnostic Ultrasound",
+		"Slug": "DUTEC",
+		"CoursePrefixes": ["DUTEC"]
+	}, {
+		"Title": "Digital Media Arts",
+		"Slug": "DMA",
+		"CoursePrefixes": ["DMA"]
+	}, {
+		"Title": "Drama",
+		"Slug": "DRMA",
+		"CoursePrefixes": ["DRMA", "DRMA&"]
+	}, {
+		"Title": "Early Learning & Teacher Education",
+		"Slug": "ECED",
+		"CoursePrefixes": ["ECED", "ECED&"]
+	}, {
+		"Title": "Economics",
+		"Slug": "ECON",
+		"CoursePrefixes": ["ECON", "ECON&"]
+	}, {
+		"Title": "Education",
+		"Slug": "EDUC",
+		"CoursePrefixes": ["EDUC", "EDUC&"]
+	}, {
+		"Title": "Electroneurodiagnostic Technologist",
+		"Slug": "ENDT",
+		"CoursePrefixes": []
+	}, {
+		"Title": "Engineering",
+		"Slug": "ENGR",
+		"CoursePrefixes": ["ENGR", "ENGR&"]
+	}, {
+		"Title": "English",
+		"Slug": "ENGL",
+		"CoursePrefixes": ["ENGL", "ENGL&"]
+	}, {
+		"Title": "English as a Second Language",
+		"Slug": "ESL",
+		"CoursePrefixes": ["ESL"]
+	}, {
+		"Title": "English Language Institute University Preparation",
+		"Slug": "ELIUP",
+		"CoursePrefixes": ["ELIUP"]
+	}, {
+		"Title": "Environmental Science",
+		"Slug": "ENVS",
+		"CoursePrefixes": ["ENVS", "ENVS&"]
+	}, {
+		"Title": "Experiential Learning",
+		"Slug": "EXPRL",
+		"CoursePrefixes": ["EXPRL"]
+	}, {
+		"Title": "French",
+		"Slug": "FRCH",
+		"CoursePrefixes": ["FRCH", "FRCH&"]
+	}, {
+		"Title": "General Education Development (GED)",
+		"Slug": "GED",
+		"CoursePrefixes": ["GED"]
+	}, {
+		"Title": "Geography",
+		"Slug": "GEOG",
+		"CoursePrefixes": ["GEOG", "GEOG&"]
+	}, {
+		"Title": "Geology",
+		"Slug": "GEOL",
+		"CoursePrefixes": ["GEOL", "GEOL&"]
+	}, {
+		"Title": "German",
+		"Slug": "GERM",
+		"CoursePrefixes": ["GERM", "GERM&"]
+	}, {
+		"Title": "Health",
+		"Slug": "HLTH",
+		"CoursePrefixes": ["HLTH"]
+	}, {
+		"Title": "Health Professions",
+		"Slug": "HPRO",
+		"CoursePrefixes": ["HPRO"]
+	}, {
+		"Title": "Healthcare Technology Management",
+		"Slug": "HCTM",
+		"CoursePrefixes": ["HCTM"]
+	}, {
+		"Title": "History",
+		"Slug": "HIST",
+		"CoursePrefixes": ["HIST", "HIST&"]
+	}, {
+		"Title": "Human Development",
+		"Slug": "HD",
+		"CoursePrefixes": ["HD"]
+	}, {
+		"Title": "Humanities",
+		"Slug": "HUMAN",
+		"CoursePrefixes": ["HUMAN"]
+	}, {
+		"Title": "Imaging",
+		"Slug": "IMAGE",
+		"CoursePrefixes": ["IMAGE"]
+	}, {
+		"Title": "Independent Studies",
+		"Slug": "IS",
+		"CoursePrefixes": ["IS"]
+	}, {
+		"Title": "Individual Development",
+		"Slug": "ID",
+		"CoursePrefixes": ["ID"]
+	}, {
+		"Title": "Information Technology",
+		"Slug": "IT",
+		"CoursePrefixes": ["IT"]
+	}, {
+		"Title": "Interdisciplinary Studies",
+		"Slug": "INTER",
+		"CoursePrefixes": ["INTER"]
+	}, {
+		"Title": "Interior Design",
+		"Slug": "INDES",
+		"CoursePrefixes": ["INDES"]
+	}, {
+		"Title": "International Business Professions",
+		"Slug": "IBP",
+		"CoursePrefixes": ["IBP"]
+	}, {
+		"Title": "International Studies",
+		"Slug": "INTST",
+		"CoursePrefixes": ["INTST"]
+	}, {
+		"Title": "Italian",
+		"Slug": "ITAL",
+		"CoursePrefixes": ["ITAL"]
+	}, {
+		"Title": "Japanese",
+		"Slug": "JAPN",
+		"CoursePrefixes": ["JAPN", "JAPN&"]
+	}, {
+		"Title": "Marketing",
+		"Slug": "MKTG",
+		"CoursePrefixes": ["MKTG"]
+	}, {
+		"Title": "Mathematics",
+		"Slug": "MATH",
+		"CoursePrefixes": ["MATH", "MATH&"]
+	}, {
+		"Title": "Medical Dosimetry",
+		"Slug": "DOSM",
+		"CoursePrefixes": ["DOSM"]
+	}, {
+		"Title": "Medical Informatics",
+		"Slug": "MEDIT",
+		"CoursePrefixes": ["MEDIT"]
+	}, {
+		"Title": "Meteorology",
+		"Slug": "METR",
+		"CoursePrefixes": ["METR"]
+	}, {
+		"Title": "Music",
+		"Slug": "MUSC",
+		"CoursePrefixes": ["MUSC", "MUSC&"]
+	}, {
+		"Title": "Network Services & Computing Systems",
+		"Slug": "NSCOM",
+		"CoursePrefixes": ["NSCOM"]
+	}, {
+		"Title": "Nuclear Medicine Technology",
+		"Slug": "NMTEC",
+		"CoursePrefixes": ["NMTEC"]
+	}, {
+		"Title": "Nursing",
+		"Slug": "NURS",
+		"CoursePrefixes": ["NURS"]
+	}, {
+		"Title": "Nutrition",
+		"Slug": "NUTR",
+		"CoursePrefixes": ["NUTR", "NUTR&"]
+	}, {
+		"Title": "Occupational & Life Skills",
+		"Slug": "OLS",
+		"CoursePrefixes": ["OLS"]
+	}, {
+		"Title": "Oceanography",
+		"Slug": "OCEA",
+		"CoursePrefixes": ["OCEA", "OCEA&"]
+	}, {
+		"Title": "Parent Education",
+		"Slug": "PARED",
+		"CoursePrefixes": ["PARED"]
+	}, {
+		"Title": "Philosophy",
+		"Slug": "PHIL",
+		"CoursePrefixes": ["PHIL", "PHIL&"]
+	}, {
+		"Title": "Physical Education",
+		"Slug": "PE",
+		"CoursePrefixes": ["PE", "RECED"]
+	}, {
+		"Title": "Physics",
+		"Slug": "PHYS",
+		"CoursePrefixes": ["PHYS", "PHYS&"]
+	}, {
+		"Title": "Political Science",
+		"Slug": "POLS",
+		"CoursePrefixes": ["POLS", "POLS&"]
+	}, {
+		"Title": "Programming",
+		"Slug": "PROG",
+		"CoursePrefixes": ["PROG"]
+	}, {
+		"Title": "Psychology",
+		"Slug": "PSYC",
+		"CoursePrefixes": ["PSYC", "PSYC&"]
+	}, {
+		"Title": "Radiation and Imaging Management",
+		"Slug": "RAIM",
+		"CoursePrefixes": ["RAIM"]
+	}, {
+		"Title": "Radiation and Imaging Technology",
+		"Slug": "RAIT",
+		"CoursePrefixes": ["RAIT"]
+	}, {
+		"Title": "Radiation Therapy",
+		"Slug": "RADON",
+		"CoursePrefixes": ["RADON"]
+	}, {
+		"Title": "Radiologic Technology",
+		"Slug": "RATEC",
+		"CoursePrefixes": ["RATEC"]
+	}, {
+		"Title": "Recreation Leadership ",
+		"Slug": "RECED",
+		"CoursePrefixes": []
+	}, {
+		"Title": "Sociology",
+		"Slug": "SOC",
+		"CoursePrefixes": ["SOC", "SOC&"]
+	}, {
+		"Title": "Spanish",
+		"Slug": "SPAN",
+		"CoursePrefixes": ["SPAN", "SPAN&"]
+	}, {
+		"Title": "Technical Support",
+		"Slug": "TECH",
+		"CoursePrefixes": ["TECH"]
+	}, {
+		"Title": "Translation and Interpretation",
+		"Slug": "TRANS",
+		"CoursePrefixes": ["TRANS"]
+	}, {
+		"Title": "Alcohol & Drug Counseling",
+		"Slug": "ALDAC",
+		"CoursePrefixes": ["HSSA&", "ALDAC"]
+	}, {
+		"Title": "Information Systems/Information Technology",
+		"Slug": "ISIT",
+		"CoursePrefixes": ["ISIT"]
+	}, {
+		"Title": "Neurodiagnostic Technology",
+		"Slug": "NDT",
+		"CoursePrefixes": ["NDT"]
+	}, {
+		"Title": "Allied Health Education",
+		"Slug": "AHE",
+		"CoursePrefixes": ["AHE"]
+	}, {
+		"Title": "Allied Health Education Administration",
+		"Slug": "AHEA",
+		"CoursePrefixes": ["AHEA"]
+	}, {
+		"Title": "Allied Health Education Laboratory",
+		"Slug": "AHEL",
+		"CoursePrefixes": ["AHEL"]
+	}, {
+		"Title": "Allied Health Education Pharmacology",
+		"Slug": "AHEP",
+		"CoursePrefixes": ["AHEP"]
+	}, {
+		"Title": "Allied Health Education Emergency",
+		"Slug": "AHEE",
+		"CoursePrefixes": ["AHEE"]
+	}, {
+		"Title": "Data Analytics",
+		"Slug": "DA",
+		"CoursePrefixes": ["DA"]
+	}, {
+		"Title": "World Languages",
+		"Slug": "WLANG",
+		"CoursePrefixes": ["WLANG"]
+	}, {
+		"Title": "Health Promotion & Management",
+		"Slug": "HPM",
+		"CoursePrefixes": ["HPM"]
+	}, {
+		"Title": "Healthcare Management & Leadership",
+		"Slug": "HCML",
+		"CoursePrefixes": ["HCML"]
+	}, {
+		"Title": "High School Completion",
+		"Slug": "HSC",
+		"CoursePrefixes": ["HSC"]
+	}, {
+		"Title": "Allied Health Education Medicine",
+		"Slug": "AHEM",
+		"CoursePrefixes": ["AHEM"]
+	}, {
+		"Title": "Molecular Biosciences",
+		"Slug": "MBS",
+		"CoursePrefixes": ["MBS"]
+	}, {
+		"Title": "Information Studies",
+		"Slug": "INFO",
+		"CoursePrefixes": ["INFO"]
+	}, {
+		"Title": "Healthcare Informatics",
+		"Slug": "HCI",
+		"CoursePrefixes": ["HCI"]
+	}, {
+		"Title": "Nursing Assistant",
+		"Slug": "NAC",
+		"CoursePrefixes": ["NAC"]
+	}, {
+		"Title": "STEM",
+		"Slug": "STEM",
+		"CoursePrefixes": ["STEM"]
+	}, {
+		"Title": "Robotics and Artifical Intelligence",
+		"Slug": "ROBAI",
+		"CoursePrefixes": ["ROBAI"]
+	}]
+}
