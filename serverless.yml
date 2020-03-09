@@ -1,5 +1,5 @@
 # NOTE: update this with your service name
-service: bcadmin-api-test
+service: bcadmin-api
 
 # Create an optimized package for our functions 
 package:
@@ -36,7 +36,7 @@ provider:
 
   iamRoleStatements:
     - Effect: Allow
-      Action: 
+      Action:
         - dynamodb:DescribeTable
         - dynamodb:Query
         - dynamodb:Scan
@@ -44,10 +44,36 @@ provider:
         - dynamodb:PutItem
         - dynamodb:UpdateItem
         - dynamodb:DeleteItem
-      # Restrict to specific table
+      # Restrict our IAM role permissions to
+      # the specific table for the stage
       Resource:
-        - "Fn::GetAtt": [bcadmin, Arn]
-      # Resource: "arn:aws:dynamodb:us-west-2:*:*"
+        - "Fn::GetAtt": [ bcadmin, Arn ]
+    - Effect: Allow
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      # Restrict our IAM role permissions to
+      # the specific table for the stage
+      Resource:
+        - "Fn::GetAtt": [ bcadminSlug, Arn ]
+    - Effect: Allow
+      Action:
+        - dynamodb:DescribeTable
+        - dynamodb:Query
+        - dynamodb:Scan
+        - dynamodb:GetItem
+        - dynamodb:PutItem
+        - dynamodb:UpdateItem
+        - dynamodb:DeleteItem
+      # Restrict our IAM role permissions to
+      # the specific table for the stage
+      Resource:
+        - "Fn::GetAtt": [ bcadminClasses, Arn ]
   
 functions:
   create:
@@ -70,7 +96,7 @@ functions:
     handler: getSlugList.main
     events:
       - http:
-          path: quarter/{id}
+          path: slug
           method: get
           cors: true
           authorizer: aws_iam
@@ -78,7 +104,7 @@ functions:
     handler: getClassList.main
     events:
       - http:
-          path: quarter/{id}
+          path: class/{slug}
           method: get
           cors: true
           authorizer: aws_iam

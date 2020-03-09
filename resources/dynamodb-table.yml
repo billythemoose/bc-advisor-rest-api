@@ -1,7 +1,6 @@
 Resources:
   bcadmin:
     Type: AWS::DynamoDB::Table
-    DeletionPolicy: Retain
     Properties:
       TableName: ${self:custom.tableName}
       AttributeDefinitions:
@@ -17,7 +16,6 @@ Resources:
       BillingMode: PAY_PER_REQUEST
   bcadminSlug:
     Type: AWS::DynamoDB::Table
-    DeletionPolicy: Retain
     Properties:
       TableName: bcadmin-slug
       AttributeDefinitions:
@@ -33,7 +31,6 @@ Resources:
       BillingMode: PAY_PER_REQUEST
   bcadminClasses:
     Type: AWS::DynamoDB::Table
-    DeletionPolicy: Retain
     Properties:
       TableName: bcadmin-classes
       AttributeDefinitions:

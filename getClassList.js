@@ -2,13 +2,12 @@ import * as dynamoDbLib from "./libs/dynamodb-lib";
 import {success, failure} from "./libs/response-lib";
 
 export async function main(event, context) {
-    console.log(process.env.bcadminClasses);
-    console.log(event.requestContext.slug);
+    console.log(event);
     const params = {
         TableName: process.env.bcadminClasses,
         KeyConditionExpression: "slug = :slug",
         ExpressionAttributeValues: {
-            ":slug": event.requestContext.slug
+            ":slug": event.pathParameters.slug
         }
     };
 
